@@ -11,8 +11,7 @@ Bem-vindo ao meu laboratório pessoal de estudos em **React** e **TypeScript**. 
 
 ## 🌐 Showcase (O Hub)
 O projeto principal deste repositório é o **[Portfolio Hub]**, que serve como interface para visualizar todos os mini-apps abaixo.
-> **Acesse agora:** [Visualizar Hub Online](https://react-labs-hub-hub-main.vercel.app/)]([https://seu-link-da-vercel.vercel.app/](https://react-labs-hub-hub-main.vercel.app/))
-
+> **Acesse agora:** [Visualizar Hub Online](https://react-labs-hub-hub-main.vercel.app/)
 ---
 
 ## 📂 Projetos no Hub
