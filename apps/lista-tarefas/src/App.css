@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+main {
+  color: white;
+  max-width: 700px;
+}
+
+main img {
+  display: block;
+  margin: auto;
+  width: 200px;
+}
+
+main h1 {
+  text-align: center;
+}
+
+main hr {
+  margin: 10px 0px;
+}
+
+ul {
+  margin-top: 13px;
+}
+
+input[type='text'] {
+  height: 30px;
+  width: 200px;
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  background-color: rgb(222, 222, 222);
+}
+
+input[type='text']:focus-within {
+  outline: 1px solid #00A0C8;
+  background-color: white;
+}
+
+button {
+  height: 30px;
+  width: 150px;
+  border: none;
+  border-radius: 2px;
+  background-color: green;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkgreen;
+  transition-duration: .2s;
+}
+
+button:active {
+  background-color: white;
+  color: darkgreen;
+  transition-duration: 0s;
+}
+
+.botao-deletar {
+  height: 30px;
+  width: 70px;
+  border: none;
+  border-radius: 2px;
+  background-color: red;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.botao-deletar:hover {
+  background-color: darkred;
+  transition-duration: .2s;
+}
+
+.botao-deletar:active {
+  background-color: white;
+  color: darkred;
+  transition-duration: 0s;
+}
+
+.botao-editar {
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 2px;
+  background-color: orange;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.botao-editar:hover {
+  background-color: darkorange;
+  transition-duration: .2s;
+}
+
+.botao-editar:active {
+  background-color: white;
+  color: darkorange;
+  transition-duration: 0s;
+}
