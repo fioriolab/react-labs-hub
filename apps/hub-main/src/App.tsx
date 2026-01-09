@@ -4,6 +4,7 @@ import { Github, Linkedin, ExternalLink, Mail } from 'lucide-react';
 import etanolGasolina from '/etanol-gasolina.png';
 import frasesMotivacionais from '/frases-motivacionais.png'
 import descubraIdade from '/descubra-idade.png'
+import listaTarefas from '/lista-tarefas.png'
 
 const ReactIcon = () => (
   <svg width="24" height="24" viewBox="-11.5 -10.23174 23 20.46348" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-[#61DAFB] animate-[spin_10s_linear_infinite]">
@@ -43,6 +44,14 @@ const Portfolio = () => {
   }, []);
 
   const projetos = [
+    {
+      title: "Lista de Tarefas",
+      description: "Gerenciador de atividades completo com persistência de dados, filtros de status e edição dinâmica de tarefas.",
+      tech: ["React", "TypeScript", "Local Storage", "Lucide Icons"],
+      linkGithub: "https://github.com/fioriolab/react-labs-hub/tree/main/apps/lista-tarefas", // Verifique se o caminho da pasta está correto
+      linkDemo: "https://react-labs-hub-lista-tarefas.vercel.app/", // Substitua pela sua URL da Vercel
+      image: listaTarefas
+    },
     {
       title: "Etanol ou Gasolina",
       description: "Calculadora inteligente que utiliza a regra dos 70% para definir o melhor custo-benefício entre combustíveis.",
