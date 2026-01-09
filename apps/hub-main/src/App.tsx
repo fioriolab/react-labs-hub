@@ -9,7 +9,7 @@ const Portfolio = () => {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
-    const handleMouseMove = (event) => {
+    const handleMouseMove = (event: MouseEvent) => {
       setMousePos({ 
         x: event.clientX, 
         // Soma a posição do mouse com a distância percorrida no scroll
