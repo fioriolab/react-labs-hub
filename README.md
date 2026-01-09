@@ -22,7 +22,7 @@ Abaixo estão os projetos desenvolvidos, localizados na pasta `/apps`:
 | :--- | :--- | :---: |
 | **🏠 [Hub Principal (Portfólio)](./apps/hub-main)** | Interface central (Spotlight Effect) que conecta todos os laboratórios. | ![](https://img.shields.io/badge/ONLINE-blue) |
 | **⛽ [Gasolina ou etanol](./apps/etanol-ou-gasolina)** | Calculadora inteligente para escolha de combustível usando lógica de 70%. | ![](https://img.shields.io/badge/07%2F01%2F2026-darkgreen) |
-| **📝 Lista de Tarefas** | Gerenciador de atividades com manipulação de listas e estados dinâmicos. | ![](https://img.shields.io/badge/23%2F12%2F2025-green) |
+| **📝 [Lista de Tarefas](./apps/lista-tarefas)** | Gerenciador de atividades com manipulação de listas e estados dinâmicos. | ![](https://img.shields.io/badge/23%2F12%2F2025-green) |
 | **💬 [Projeto Frases](./apps/projeto-frases)** | Gerador de frases aleatórias para praticar `useState`. | ![](https://img.shields.io/badge/26%2F12%2F2025-green) |
 | **🎂 [Descubra a idade](./apps/descubra-idade)** | Calculadora de idade com foco em performance (`useCallback`). | ![](https://img.shields.io/badge/27%2F12%2F2025-green) |
 
