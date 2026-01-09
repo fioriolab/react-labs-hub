@@ -5,6 +5,24 @@ import etanolGasolina from '/etanol-gasolina.png';
 import frasesMotivacionais from '/frases-motivacionais.png'
 import descubraIdade from '/descubra-idade.png'
 
+const ReactIcon = () => (
+  <svg width="24" height="24" viewBox="-11.5 -10.23174 23 20.46348" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-[#61DAFB] animate-[spin_10s_linear_infinite]">
+    <circle cx="0" cy="0" r="2.05" fill="currentColor"/>
+    <g stroke="currentColor" strokeWidth="1" fill="none">
+      <ellipse rx="11" ry="4.2"/>
+      <ellipse rx="11" ry="4.2" transform="rotate(60)"/>
+      <ellipse rx="11" ry="4.2" transform="rotate(120)"/>
+    </g>
+  </svg>
+);
+
+const TSIcon = () => (
+  <svg width="22" height="22" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="rounded-sm overflow-hidden">
+    <path d="M0 0H100V100H0V0Z" fill="#3178C6"/>
+    <path d="M36.1 72H41.5V31.4H23V36.6H36.1V72ZM72.4 49.3C69.3 47.7 65.8 46.8 62.1 46.8C55.6 46.8 51.1 50.1 51.1 55.7C51.1 60.5 54.4 63.4 60.3 65.7C65.5 67.7 67.3 69.1 67.3 71.8C67.3 74.8 64.7 76.8 60 76.8C55 76.8 50.2 74.9 46.5 71.9L43 76.8C47.7 80.9 54 83 60.1 83C67.8 83 73.1 78.6 73.1 71.5C73.1 66.2 69.6 63.3 63.3 60.9C58.4 59.1 56.9 57.8 56.9 55.5C56.9 53 59.2 51.4 63 51.4C66.8 51.4 69.8 52.4 72.8 54.1L75.5 49L72.4 49.3Z" fill="white"/>
+  </svg>
+);
+
 const Portfolio = () => {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
 
@@ -54,8 +72,7 @@ const Portfolio = () => {
   return (
 
     <div className="relative bg-[#0d1117] text-slate-300 min-h-screen w-full font-sans selection:bg-[#61DAFB] selection:text-[#0d1117]">
-      
-      {/* Efeito de Spotlight */}
+      {/* Spotlight */}
       <div 
         className="pointer-events-none fixed inset-0 z-30 transition duration-300 lg:absolute"
         style={{
@@ -67,17 +84,24 @@ const Portfolio = () => {
       <main className="max-w-screen-xl mx-auto px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0">
         <div className="lg:flex lg:justify-between lg:gap-4">
           
-          {/* ESQUERDA */}
           <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
-            {/* Div superior: Agrupa Nome, Descrição e Menu */}
             <div>
-              <h1 className="text-4xl font-bold tracking-tight sm:text-5xl bg-gradient-to-r from-white to-[#61DAFB] bg-clip-text text-transparent">
-                Guilherme Henrique Fiorio Martins
-              </h1>
+              <div className="flex items-center gap-4 mb-2">
+                <h1 className="text-4xl font-bold tracking-tight sm:text-5xl bg-gradient-to-r from-white to-[#61DAFB] bg-clip-text text-transparent">
+                  React Labs Hub
+                </h1>
+                {/* Ícones ao lado do título principal */}
+                <div className="flex gap-2 opacity-80">
+                  <ReactIcon />
+                  <TSIcon />
+                </div>
+              </div>
+
               <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-                Desenvolvedor <span className="mt-3 text-lg font-medium tracking-tight text-[#61DAFB] sm:text-xl">Front</span>-End <br /> 
+                Projeto de <span className="text-[#61DAFB]">Guilherme Henrique Fiorio Martins</span>
+                <br />
                 <span className="text-sm font-normal text-slate-400 tracking-widest uppercase italic">
-                  HTML • CSS • JavaScript • <span className="text-[#61DAFB] not-italic">React</span> • <span className="text-[#61DAFB] not-italic">TypeScript</span>
+                  Especialista Front-End • React & TypeScript
                 </span>
               </h2>
               <p className="mt-4 max-w-xs leading-normal text-slate-400">
